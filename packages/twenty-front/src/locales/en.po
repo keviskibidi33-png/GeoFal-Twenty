@@ -64,6 +64,13 @@ msgstr ": Past"
 msgid ": Today{timeZoneAbbreviationSuffix}"
 msgstr ": Today{timeZoneAbbreviationSuffix}"
 
+#. js-lingui-id: 0w7Zlj
+#. placeholder {0}: quote.year
+#. placeholder {1}: quote.numero
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "¿Está seguro de eliminar la cotización COT-{0}-{1}?"
+msgstr "¿Está seguro de eliminar la cotización COT-{0}-{1}?"
+
 #. js-lingui-id: N/lIUf
 #: src/modules/billing/hooks/useBillingWording.ts
 msgid ". The change will be applied the {beautifiedRenewDate}."
@@ -614,6 +621,11 @@ msgstr "Access your workspace data from your favorite MCP client like Claude Des
 msgid "Accessible in your function via process.env.KEY"
 msgstr "Accessible in your function via process.env.KEY"
 
+#. js-lingui-id: 3LfgiP
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Acciones"
+msgstr "Acciones"
+
 #. js-lingui-id: AeXO77
 #: src/pages/settings/accounts/SettingsAccountsConfigurationStepEmail.tsx
 #: src/pages/settings/accounts/SettingsAccountsConfigurationStepCalendar.tsx
@@ -725,6 +737,11 @@ msgstr "Active API keys created by you or your team."
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminHealthAccountSyncCountersTable.tsx
 msgid "Active Sync"
 msgstr "Active Sync"
+
+#. js-lingui-id: DFEMEJ
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Actualizar"
+msgstr "Actualizar"
 
 #. js-lingui-id: m16xKo
 #: src/pages/settings/ai/components/SettingsAgentEvalsTab.tsx
@@ -2093,6 +2110,11 @@ msgstr "bullet"
 msgid "Bullet List"
 msgstr "Bullet List"
 
+#. js-lingui-id: YfTXt8
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Buscar por cliente, proyecto o número..."
+msgstr "Buscar por cliente, proyecto o número..."
+
 #. js-lingui-id: 8Pfllj
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "By using Twenty, you agree to the"
@@ -2277,6 +2299,11 @@ msgstr "Cannot impersonate selected user"
 #: src/modules/auth/sign-in-up/components/internal/SignInUpTwoFactorAuthenticationVerification.tsx
 msgid "Captcha (anti-bot check) is still loading, try again"
 msgstr "Captcha (anti-bot check) is still loading, try again"
+
+#. js-lingui-id: O0MITs
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Cargando cotizaciones..."
+msgstr "Cargando cotizaciones..."
 
 #. js-lingui-id: M1RLfx
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -2504,6 +2531,11 @@ msgstr "Client Secret"
 #: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
 msgid "Client Settings"
 msgstr "Client Settings"
+
+#. js-lingui-id: w/w6UR
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Cliente"
+msgstr "Cliente"
 
 #. js-lingui-id: yz7wBu
 #: src/modules/ui/feedback/snack-bar-manager/components/SnackBar.tsx
@@ -3006,6 +3038,12 @@ msgstr "Cost"
 msgid "Cost per 1k Extra Credits"
 msgstr "Cost per 1k Extra Credits"
 
+#. js-lingui-id: eDe4i5
+#: src/pages/quotes/QuotesIndexPage.tsx
+#: src/modules/navigation/components/MainNavigationDrawerScrollableItems.tsx
+msgid "Cotizaciones"
+msgstr "Cotizaciones"
+
 #. js-lingui-id: VVRHmR
 #: src/modules/settings/security/components/approvedAccessDomains/SettingsSecurityApprovedAccessDomainRowDropdownMenu.tsx
 msgid "Could not delete approved access domain"
@@ -3070,6 +3108,11 @@ msgstr "Country"
 #: src/modules/object-record/record-field/ui/form-types/components/FormPhoneFieldInput.tsx
 msgid "Country Code"
 msgstr "Country Code"
+
+#. js-lingui-id: Z4uOWU
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Crear Primera Cotización"
+msgstr "Crear Primera Cotización"
 
 #. js-lingui-id: gJdfqX
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -3966,6 +4009,11 @@ msgstr "Deleted records"
 msgid "Deleting this method will remove it permanently from your account."
 msgstr "Deleting this method will remove it permanently from your account."
 
+#. js-lingui-id: xQexJq
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Descargar"
+msgstr "Descargar"
+
 #. js-lingui-id: O3LJh6
 #: src/modules/command-menu/pages/page-layout/utils/getSortLabelSuffixForFieldType.ts
 #: src/modules/command-menu/pages/page-layout/utils/getSortLabelSuffixForFieldType.ts
@@ -4370,6 +4418,11 @@ msgstr "Editor"
 #: src/modules/object-record/record-merge/utils/getPositionWordLabel.ts
 msgid "Eighth"
 msgstr "Eighth"
+
+#. js-lingui-id: pIwhke
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Eliminar"
+msgstr "Eliminar"
 
 #. js-lingui-id: RvmROw
 #: src/modules/workflow/workflow-steps/workflow-actions/if-else-action/utils/getBranchLabel.ts
@@ -5482,6 +5535,11 @@ msgstr "Feature Flag"
 #: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
 msgid "Feature Flags & Impersonation"
 msgstr "Feature Flags & Impersonation"
+
+#. js-lingui-id: Wy8zZH
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Fecha"
+msgstr "Fecha"
 
 #. js-lingui-id: 2lOBKV
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -8075,6 +8133,11 @@ msgstr "No folders found"
 msgid "No folders found for this account"
 msgstr "No folders found for this account"
 
+#. js-lingui-id: urkg6i
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "No hay cotizaciones registradas"
+msgstr "No hay cotizaciones registradas"
+
 #. js-lingui-id: gIrKyO
 #: src/pages/settings/ai/components/SettingsAgentLogsTab.tsx
 msgid "No input"
@@ -8354,6 +8417,11 @@ msgstr "Notes"
 msgid "now"
 msgstr "now"
 
+#. js-lingui-id: S29UGs
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Nueva Cotización"
+msgstr "Nueva Cotización"
+
 #. js-lingui-id: VVexZo
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
 msgid "number"
@@ -8396,6 +8464,11 @@ msgstr "numbered"
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
 msgid "Numbered list"
 msgstr "Numbered list"
+
+#. js-lingui-id: 5J5LP4
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Número"
+msgstr "Número"
 
 #. js-lingui-id: pNEViR
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -9252,6 +9325,11 @@ msgstr "Provide your OIDC provider details"
 #: src/pages/settings/domains/SettingsDomains.tsx
 msgid "Provision a complete and secure hosting environment on these domains."
 msgstr "Provision a complete and secure hosting environment on these domains."
+
+#. js-lingui-id: zF5oeE
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Proyecto"
+msgstr "Proyecto"
 
 #. js-lingui-id: YJgRqq
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -11813,6 +11891,7 @@ msgid "Tools"
 msgstr "Tools"
 
 #. js-lingui-id: 72c5Qo
+#: src/pages/quotes/QuotesIndexPage.tsx
 #: src/modules/page-layout/widgets/graph/graphWidgetPieChart/hooks/usePieChartCenterMetricData.ts
 msgid "Total"
 msgstr "Total"

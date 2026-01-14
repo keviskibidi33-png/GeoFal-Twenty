@@ -69,6 +69,13 @@ msgstr ": Förfluten"
 msgid ": Today{timeZoneAbbreviationSuffix}"
 msgstr ": I dag{timeZoneAbbreviationSuffix}"
 
+#. js-lingui-id: 0w7Zlj
+#. placeholder {0}: quote.year
+#. placeholder {1}: quote.numero
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "¿Está seguro de eliminar la cotización COT-{0}-{1}?"
+msgstr ""
+
 #. js-lingui-id: N/lIUf
 #: src/modules/billing/hooks/useBillingWording.ts
 msgid ". The change will be applied the {beautifiedRenewDate}."
@@ -619,6 +626,11 @@ msgstr "Du får åtkomst till dina arbetsytedata från din favorit MCP-klient so
 msgid "Accessible in your function via process.env.KEY"
 msgstr "Tillgängligt i din funktion via process.env.KEY"
 
+#. js-lingui-id: 3LfgiP
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Acciones"
+msgstr ""
+
 #. js-lingui-id: AeXO77
 #: src/pages/settings/accounts/SettingsAccountsConfigurationStepEmail.tsx
 #: src/pages/settings/accounts/SettingsAccountsConfigurationStepCalendar.tsx
@@ -730,6 +742,11 @@ msgstr "Aktiva API-nycklar skapade av dig eller ditt team."
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminHealthAccountSyncCountersTable.tsx
 msgid "Active Sync"
 msgstr "Aktiv synk"
+
+#. js-lingui-id: DFEMEJ
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Actualizar"
+msgstr ""
 
 #. js-lingui-id: m16xKo
 #: src/pages/settings/ai/components/SettingsAgentEvalsTab.tsx
@@ -2098,6 +2115,11 @@ msgstr ""
 msgid "Bullet List"
 msgstr ""
 
+#. js-lingui-id: YfTXt8
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Buscar por cliente, proyecto o número..."
+msgstr ""
+
 #. js-lingui-id: 8Pfllj
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
 msgid "By using Twenty, you agree to the"
@@ -2282,6 +2304,11 @@ msgstr "Kan inte efterlikna vald användare"
 #: src/modules/auth/sign-in-up/components/internal/SignInUpTwoFactorAuthenticationVerification.tsx
 msgid "Captcha (anti-bot check) is still loading, try again"
 msgstr "Captcha (anti-botkontroll) laddar fortfarande, försök igen"
+
+#. js-lingui-id: O0MITs
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Cargando cotizaciones..."
+msgstr ""
 
 #. js-lingui-id: M1RLfx
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -2509,6 +2536,11 @@ msgstr "Klienthemlighet"
 #: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
 msgid "Client Settings"
 msgstr "Klientinställningar"
+
+#. js-lingui-id: w/w6UR
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Cliente"
+msgstr ""
 
 #. js-lingui-id: yz7wBu
 #: src/modules/ui/feedback/snack-bar-manager/components/SnackBar.tsx
@@ -3011,6 +3043,12 @@ msgstr "Kostnad"
 msgid "Cost per 1k Extra Credits"
 msgstr "Kostnad per 1k extra krediter"
 
+#. js-lingui-id: eDe4i5
+#: src/pages/quotes/QuotesIndexPage.tsx
+#: src/modules/navigation/components/MainNavigationDrawerScrollableItems.tsx
+msgid "Cotizaciones"
+msgstr ""
+
 #. js-lingui-id: VVRHmR
 #: src/modules/settings/security/components/approvedAccessDomains/SettingsSecurityApprovedAccessDomainRowDropdownMenu.tsx
 msgid "Could not delete approved access domain"
@@ -3075,6 +3113,11 @@ msgstr "Land"
 #: src/modules/object-record/record-field/ui/form-types/components/FormPhoneFieldInput.tsx
 msgid "Country Code"
 msgstr "Landskod"
+
+#. js-lingui-id: Z4uOWU
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Crear Primera Cotización"
+msgstr ""
 
 #. js-lingui-id: gJdfqX
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -3971,6 +4014,11 @@ msgstr "Raderade poster"
 msgid "Deleting this method will remove it permanently from your account."
 msgstr "Genom att radera denna metod kommer den permanent att tas bort från ditt konto."
 
+#. js-lingui-id: xQexJq
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Descargar"
+msgstr ""
+
 #. js-lingui-id: O3LJh6
 #: src/modules/command-menu/pages/page-layout/utils/getSortLabelSuffixForFieldType.ts
 #: src/modules/command-menu/pages/page-layout/utils/getSortLabelSuffixForFieldType.ts
@@ -4375,6 +4423,11 @@ msgstr "Redigerare"
 #: src/modules/object-record/record-merge/utils/getPositionWordLabel.ts
 msgid "Eighth"
 msgstr "Åttonde"
+
+#. js-lingui-id: pIwhke
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Eliminar"
+msgstr ""
 
 #. js-lingui-id: RvmROw
 #: src/modules/workflow/workflow-steps/workflow-actions/if-else-action/utils/getBranchLabel.ts
@@ -5487,6 +5540,11 @@ msgstr "Funktionsflagga"
 #: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
 msgid "Feature Flags & Impersonation"
 msgstr "Funktionsflaggor & Imitation"
+
+#. js-lingui-id: Wy8zZH
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Fecha"
+msgstr ""
 
 #. js-lingui-id: 2lOBKV
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
@@ -8082,6 +8140,11 @@ msgstr "Inga mappar hittades"
 msgid "No folders found for this account"
 msgstr "Inga mappar hittades för detta konto"
 
+#. js-lingui-id: urkg6i
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "No hay cotizaciones registradas"
+msgstr ""
+
 #. js-lingui-id: gIrKyO
 #: src/pages/settings/ai/components/SettingsAgentLogsTab.tsx
 msgid "No input"
@@ -8361,6 +8424,11 @@ msgstr "Anteckningar"
 msgid "now"
 msgstr "nu"
 
+#. js-lingui-id: S29UGs
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Nueva Cotización"
+msgstr ""
+
 #. js-lingui-id: VVexZo
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
 msgid "number"
@@ -8402,6 +8470,11 @@ msgstr ""
 #. js-lingui-id: M3G9ZD
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
 msgid "Numbered list"
+msgstr ""
+
+#. js-lingui-id: 5J5LP4
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Número"
 msgstr ""
 
 #. js-lingui-id: pNEViR
@@ -9259,6 +9332,11 @@ msgstr "Ange dina OIDC-leverantörsdetaljer"
 #: src/pages/settings/domains/SettingsDomains.tsx
 msgid "Provision a complete and secure hosting environment on these domains."
 msgstr "Tillhandahåll en komplett och säker värdmiljö på dessa domäner."
+
+#. js-lingui-id: zF5oeE
+#: src/pages/quotes/QuotesIndexPage.tsx
+msgid "Proyecto"
+msgstr ""
 
 #. js-lingui-id: YJgRqq
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -11830,6 +11908,7 @@ msgid "Tools"
 msgstr ""
 
 #. js-lingui-id: 72c5Qo
+#: src/pages/quotes/QuotesIndexPage.tsx
 #: src/modules/page-layout/widgets/graph/graphWidgetPieChart/hooks/usePieChartCenterMetricData.ts
 msgid "Total"
 msgstr ""
