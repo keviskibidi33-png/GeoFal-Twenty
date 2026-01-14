@@ -5,7 +5,8 @@ import { useLingui } from '@lingui/react/macro';
 import styled from '@emotion/styled';
 import { useCallback, useEffect, useState } from 'react';
 import { IconFileText, IconPlus, IconDownload, IconTrash, IconRefresh } from 'twenty-ui/display';
-import { Button, TextInput } from 'twenty-ui/input';
+import { Button } from 'twenty-ui/input';
+import { StyledTextInput } from '@/ui/field/input/components/TextInput';
 
 const QUOTES_SERVICE_URL = import.meta.env.VITE_QUOTES_SERVICE_URL || 'http://localhost:5173';
 
@@ -214,7 +215,8 @@ export const QuotesIndexPage = () => {
         <StyledPageContent>
           <StyledToolbar>
             <StyledSearchContainer>
-              <TextInput
+              <StyledTextInput
+                instanceId="quotes-search"
                 placeholder={t`Buscar por cliente, proyecto o número...`}
                 value={search}
                 onChange={setSearch}
