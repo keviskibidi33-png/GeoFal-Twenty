@@ -6,7 +6,6 @@ import styled from '@emotion/styled';
 import { useCallback, useEffect, useState } from 'react';
 import { IconFileText, IconPlus, IconDownload, IconTrash, IconRefresh } from 'twenty-ui/display';
 import { Button } from 'twenty-ui/input';
-import { StyledTextInput } from '@/ui/field/input/components/TextInput';
 
 const QUOTES_SERVICE_URL = import.meta.env.VITE_QUOTES_SERVICE_URL || 'http://localhost:5173';
 
@@ -47,6 +46,26 @@ const StyledButtonGroup = styled.div`
 
 const StyledSearchContainer = styled.div`
   min-width: 250px;
+`;
+
+const StyledSearchInput = styled.input`
+  width: 100%;
+  padding: ${({ theme }) => theme.spacing(2)};
+  border: 1px solid ${({ theme }) => theme.border.color.medium};
+  border-radius: ${({ theme }) => theme.border.radius.md};
+  background: ${({ theme }) => theme.background.primary};
+  color: ${({ theme }) => theme.font.color.primary};
+  font-size: ${({ theme }) => theme.font.size.md};
+  
+  &:focus {
+    outline: none;
+    border-color: ${({ theme }) => theme.color.blue};
+    box-shadow: 0 0 0 2px ${({ theme }) => theme.color.blue}20;
+  }
+  
+  &::placeholder {
+    color: ${({ theme }) => theme.font.color.tertiary};
+  }
 `;
 
 const StyledTable = styled.table`
@@ -215,11 +234,11 @@ export const QuotesIndexPage = () => {
         <StyledPageContent>
           <StyledToolbar>
             <StyledSearchContainer>
-              <StyledTextInput
-                instanceId="quotes-search"
+              <StyledSearchInput
+                type="text"
                 placeholder={t`Buscar por cliente, proyecto o número...`}
                 value={search}
-                onChange={(newText) => setSearch(newText)}
+                onChange={(e) => setSearch(e.target.value)}
               />
             </StyledSearchContainer>
             <StyledButtonGroup>
