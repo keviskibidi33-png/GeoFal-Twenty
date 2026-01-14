@@ -219,7 +219,7 @@ export const QuotesIndexPage = () => {
                 instanceId="quotes-search"
                 placeholder={t`Buscar por cliente, proyecto o número...`}
                 value={search}
-                onChange={setSearch}
+                onChange={(newText) => setSearch(newText)}
               />
             </StyledSearchContainer>
             <StyledButtonGroup>
